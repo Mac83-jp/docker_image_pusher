@@ -1,7 +1,2 @@
-alpine
-python:alpine3.19
-kasmweb/nginx:1.25.3
---platform=linux/amd64 redis:7.0.15-alpine3.20
-amazoncorretto:17
-postgres:15.7-alpine
-postgres:15.7
+apache/kafka:3.7.1
+apache/kafka
