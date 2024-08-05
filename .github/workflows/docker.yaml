@@ -28,7 +28,11 @@ jobs:
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         while IFS= read -r line; do
+          # 忽略空行与注释
           [[ -z "$line" ]] && continue
+          if echo "$line" | grep -q '^\s*#'; then
+              continue
+          fi
           echo "docker pull $line"
           docker pull $line
           platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
