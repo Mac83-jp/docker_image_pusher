@@ -1,3 +1,4 @@
 #gitlab/gitlab-ce:latest
 #gitlab/gitlab-runner:latest
-minio/minio:latest
+#minio/minio:latest
+docker pull node:8-alpine
