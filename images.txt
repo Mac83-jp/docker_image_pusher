@@ -1,4 +1,5 @@
 #gitlab/gitlab-ce:latest
 #gitlab/gitlab-runner:latest
 #minio/minio:latest
-node:8-alpine
+#node:8-alpine
+node:18-alpine
