@@ -2,4 +2,5 @@
 #gitlab/gitlab-runner:latest
 #minio/minio:latest
 #node:8-alpine
-node:18-alpine
+n#ode:18-alpine
+mcr.microsoft.com/azure-storage/azurite:latest
