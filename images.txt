@@ -1,6 +1,6 @@
-#gitlab/gitlab-ce:latest
-#gitlab/gitlab-runner:latest
+gitlab/gitlab-ce:17.8.1
+gitlab/gitlab-runner:17.8.1
 #minio/minio:latest
 #node:8-alpine
 #node:18-alpine
-mcr.microsoft.com/azure-storage/azurite:latest
+#mcr.microsoft.com/azure-storage/azurite:latest
