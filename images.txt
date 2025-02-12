@@ -1,4 +1,4 @@
-gitlab/gitlab-ce:17.8.1
+gitlab/gitlab-ce:17.8.1-ce.0
 gitlab/gitlab-runner:17.8.1
 #minio/minio:latest
 #node:8-alpine
