@@ -1,6 +1,7 @@
 #gitlab/gitlab-ce:17.8.1-ce.0
-gitlab/gitlab-runner:latest
+#gitlab/gitlab-runner:latest
 #minio/minio:latest
 #node:8-alpine
 #node:18-alpine
 #mcr.microsoft.com/azure-storage/azurite:latest
+quay.io/keycloak/keycloak:26.1
