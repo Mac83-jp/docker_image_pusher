@@ -3,5 +3,6 @@
 #minio/minio:latest
 #node:8-alpine
 #node:18-alpine
+node:20-alpine
 #mcr.microsoft.com/azure-storage/azurite:latest
-quay.io/keycloak/keycloak:26.1
+#quay.io/keycloak/keycloak:26.1
